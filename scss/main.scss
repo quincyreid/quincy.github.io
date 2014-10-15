@@ -4,17 +4,54 @@
    Author's custom styles
    ========================================================================== */
 
+// VARIABLES
+
+$text-color : #777;
+$dimension : 100%;
+$green : #aba;
+$inverse : #fefefe;
+
+
+// SITE LAYOUT
+
+body {
+  background-color: $green;
+  color: $text-color;
+  margin: 0;
+  height: $dimension;
+  div.wrapper {
+    min-height: $dimension;
+    position: relative;
+    header {
+    }
+    div.body {
+      background-color: $inverse;
+      padding: 30px;
+      padding-bottom: 60px;
+    }
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: $dimension;
+      height: 60px;
+    }
+  }
+}
+
+
+// FEATURES
+
+div.navbar {
+  width: 100%;
+}
+
 div.intro {
   padding-top: 8%;
   padding-bottom: 8%;
 }
 
 .jumbotron {
+  background-color: $green;
+  color: $inverse;
   text-align: center;
-}
-
-footer {
-  width:100%;
-	/*position:absolute;*/
-	bottom:0;
 }

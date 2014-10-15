@@ -1,14 +1,32 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-color: #aba;
+  color: #777;
+  margin: 0;
+  height: 100%; }
+  body div.wrapper {
+    min-height: 100%;
+    position: relative; }
+    body div.wrapper div.body {
+      background-color: #fefefe;
+      padding: 30px;
+      padding-bottom: 60px; }
+    body div.wrapper footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px; }
+
+div.navbar {
+  width: 100%; }
+
 div.intro {
   padding-top: 8%;
   padding-bottom: 8%; }
 
 .jumbotron {
+  background-color: #aba;
+  color: #fefefe;
   text-align: center; }
-
-footer {
-  width: 100%;
-  /*position:absolute;*/
-  bottom: 0; }
